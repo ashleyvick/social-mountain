@@ -62,7 +62,7 @@ class App extends Component {
               <Post key={post.id} 
               text={post.text} 
               date={post.date}
-              udatePostsFn={this.updatePost}
+              updatePostsFn={this.updatePost}
               id={post.id}
               deletePostFn={this.deletePost}
               createPostFn={this.createPost} />
